@@ -115,5 +115,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TournamentTracker\TournamentTracker.csproj">
+      <Project>{0ab1724c-16fb-447f-9ab5-1dcc23fccd07}</Project>
+      <Name>TournamentTracker</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
